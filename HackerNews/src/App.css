@@ -1,0 +1,41 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+width: 100%;
+background-color: orangered;
+}
+
+.navbarItems {
+  display: flex;
+  align-items:center;
+  flex-wrap: nowrap;
+  
+}
+
+.search {
+width: 500px;
+
+}
+
+.login {
+
+}
+
+.newsList{
+
+}
+
+.dataItem {
+
+}
+
+.footer {
+
+}
