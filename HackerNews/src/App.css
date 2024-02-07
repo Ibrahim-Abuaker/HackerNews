@@ -5,18 +5,28 @@
   width: 100%;
 }
 
-.navbar {
+.body{
   display: flex;
-  align-items: center;
+  align-items: flex-start;
+}
+
+.navbar {
+display: flex;
+flex-wrap: nowrap;
 width: 100%;
 background-color: orangered;
 }
 
 .navbarItems {
   display: flex;
-  align-items:center;
   flex-wrap: nowrap;
-  
+}
+h2 {
+  color: black;
+  width: 50px
+}
+.navbarlinks{
+
 }
 
 .search {
@@ -25,7 +35,6 @@ width: 500px;
 }
 
 .login {
-
 }
 
 .newsList{
@@ -37,5 +46,5 @@ width: 500px;
 }
 
 .footer {
-
+display: flex;
 }

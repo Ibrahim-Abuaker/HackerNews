@@ -1,12 +1,15 @@
-export default function NewsList() {
+export default function NewsList({data}) {
 
     return (
-        <div className="newsList">
-            <ol>
-                <li className="dataItem">
+<div>
+{data.map((item)=> (
 
-                </li>
-            </ol>
+<div key={item.objectID}>
+          {/* Render each news item here */}
+          <a href={item.url}>{item.title}</a>
         </div>
-    );
-    }
+      ))}
+</div>
+
+); 
+};
