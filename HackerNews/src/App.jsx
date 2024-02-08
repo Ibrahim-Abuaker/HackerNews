@@ -14,6 +14,7 @@ const fetchData = async () => {
     const res = await fetch(hackerNewsAPI);
     const data = await res.json();
     setData(data.hits);
+    console.log(data);
   } catch (error) {
     console.log(error);
   }
