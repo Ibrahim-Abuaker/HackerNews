@@ -12,13 +12,16 @@
 .navbar {
 display: flex;
 width: 100%;
+height: 40px;
 background-color:  rgb(250, 202, 184);
 }
 
 .navbarItems {
+  margin-top:7px ;  
   display: flex;
 }
 .navbarItems > a {
+
   margin-left: 50px;
 }
 .h2 {
@@ -27,14 +30,30 @@ background-color:  rgb(250, 202, 184);
 a{
   padding-left: 5px;
 }
-
+input {
+  border-radius: 10px; ;
+}
 .search {
-min-width: 50px;
-margin-left: 100px;
 
+  display: flex;
+  margin-top:7px ;  
+width: 700px;
+height: 30px;
+margin-left: 50px;
+}
+.button{
+  display: flex;
+  align-items: center;
+  width: 100px;
+  height: 30px;
+  margin-left: 10px;
+  background-color:#828282;
 }
 
 .login {
+  width: 100px;
+  margin-top:7px ;  
+
 }
 
 .newsList{
@@ -47,6 +66,7 @@ padding: 10px;
 .dataItem {
 
 }
+
 
 .footer {
 width: 100%;
